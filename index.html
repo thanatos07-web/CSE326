@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4a1427">
+  <meta name="description" content="Discover made-to-measure Indian occasionwear at Bloom & Thread, a designer boutique for thoughtful, handcrafted style.">
+  <title>Bloom &amp; Thread — Designer Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement-bar">Made for your moments · Thoughtfully stitched in Jaipur</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bloom and Thread home">
+      <span class="brand-mark" aria-hidden="true">B<span>&amp;</span>T</span>
+      <span class="brand-copy"><strong>BLOOM &amp; THREAD</strong><small>DESIGNER BOUTIQUE</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      <a href="#lookbook">Lookbook</a>
+      <a href="#customizer">Create your look</a>
+      <a href="#story">Our story</a>
+      <a href="#appointments">Appointments</a>
+      <a class="nav-cta" href="#appointments">Book a visit <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="A woman in an elegant rose-pink Indian embroidered outfit"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow eyebrow-light"><span></span> THE CELEBRATION EDIT · 2025</p>
+        <h1>For the moments<br>that become <em>memories.</em></h1>
+        <p class="hero-description">Considered silhouettes. Hand-finished details.<br>Occasionwear that feels entirely, beautifully you.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#lookbook">Explore the lookbook <span>↗</span></a>
+          <a class="hero-text-link" href="#story">A little about us <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="hero-note-line"></span><span>DESIGNED WITH HEART<br><small>STITCHED TO BE YOURS</small></span></div>
+      </div>
+      <div class="hero-index"><span>01</span> — 04</div>
+    </section>
+
+    <section class="intro-strip" aria-label="Boutique highlights">
+      <span>Made to measure</span><i>✳</i><span>Thoughtful craftsmanship</span><i>✳</i><span>Made for your moments</span><i>✳</i><span>Jaipur, India</span>
+    </section>
+
+    <section class="section lookbook-section" id="lookbook">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> THE DESIGN LIBRARY</p>
+          <h2>Find the feeling.<br><em>We’ll stitch the rest.</em></h2>
+        </div>
+        <p class="section-aside">A detail can change everything. Explore our signature necklines, sleeves and borders, then make the design your own.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter designs by category">
+        <button class="filter-button active" type="button" data-filter="All">All designs <span>12</span></button>
+        <button class="filter-button" type="button" data-filter="Sweetheart Neckline">Sweetheart</button>
+        <button class="filter-button" type="button" data-filter="Boat Neck">Boat neck</button>
+        <button class="filter-button" type="button" data-filter="Deep Back Neck">Deep back</button>
+        <button class="filter-button" type="button" data-filter="Sleeve Patterns">Sleeves</button>
+        <button class="filter-button" type="button" data-filter="Lehenga Borders">Lehenga borders</button>
+      </div>
+      <div class="design-grid" id="design-grid" aria-live="polite"></div>
+      <div class="catalog-foot"><span>12 signature details, endless ways to make them yours.</span><a href="#customizer">Create a custom look <span>↗</span></a></div>
+    </section>
+
+    <section class="customizer-section" id="customizer">
+      <div class="customizer-top section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-light"><span></span> YOUR LOOK, YOUR WAY</p>
+            <h2>Made for you.<br><em>Only you.</em></h2>
+          </div>
+          <p class="section-aside light-aside">Start with a silhouette, choose the details you love, and see an estimate come together as you create.</p>
+        </div>
+      </div>
+      <div class="customizer-layout section">
+        <div class="customizer-form">
+          <div class="custom-step">
+            <div class="step-heading"><span>01</span><div><h3>Choose your silhouette</h3><p>What are we making for you?</p></div></div>
+            <div class="option-group" id="base-options" role="group" aria-label="Base outfit">
+              <button type="button" class="choice-button selected" data-value="Anarkali">Anarkali</button>
+              <button type="button" class="choice-button" data-value="Designer Blouse">Designer blouse</button>
+              <button type="button" class="choice-button" data-value="Lehenga">Lehenga</button>
+              <button type="button" class="choice-button" data-value="Gown">Gown</button>
+              <button type="button" class="choice-button" data-value="Saree Blouse">Saree blouse</button>
+            </div>
+          </div>
+          <div class="custom-step">
+            <div class="step-heading"><span>02</span><div><h3>Pick your neckline</h3><p>A signature detail, chosen by you.</p></div></div>
+            <div class="option-group" id="neckline-options" role="group" aria-label="Neckline">
+              <button type="button" class="choice-button selected" data-value="Sweetheart">Sweetheart</button>
+              <button type="button" class="choice-button" data-value="Boat Neck">Boat neck</button>
+              <button type="button" class="choice-button" data-value="Deep Back">Deep back</button>
+              <button type="button" class="choice-button" data-value="Square Neck">Square</button>
+              <button type="button" class="choice-button" data-value="High Neck">High neck</button>
+              <button type="button" class="choice-button" data-value="V Neck">V neck</button>
+            </div>
+          </div>
+          <div class="custom-step">
+            <div class="step-heading"><span>03</span><div><h3>Choose a fabric</h3><p>For the way you want to feel.</p></div></div>
+            <div class="option-group" id="fabric-options" role="group" aria-label="Fabric">
+              <button type="button" class="choice-button selected" data-value="Silk">Silk</button>
+              <button type="button" class="choice-button" data-value="Georgette">Georgette</button>
+              <button type="button" class="choice-button" data-value="Cotton">Cotton</button>
+              <button type="button" class="choice-button" data-value="Velvet">Velvet</button>
+              <button type="button" class="choice-button" data-value="Net">Net</button>
+            </div>
+          </div>
+          <div class="custom-step">
+            <div class="step-heading"><span>04</span><div><h3>Add the finishing touch</h3><p>Choose one or more embroidery styles.</p></div></div>
+            <div class="option-group" id="embroidery-options" role="group" aria-label="Embroidery">
+              <button type="button" class="choice-button multi-choice" data-value="Zari Work" aria-pressed="false">Zari work <span>+</span></button>
+              <button type="button" class="choice-button multi-choice" data-value="Mirror Work" aria-pressed="false">Mirror work <span>+</span></button>
+              <button type="button" class="choice-button multi-choice" data-value="Thread Work" aria-pressed="false">Thread work <span>+</span></button>
+            </div>
+          </div>
+          <div class="custom-step">
+            <div class="step-heading"><span>05</span><div><h3>Make it personal</h3><p>Little details, made to fit.</p></div></div>
+            <div class="extra-options">
+              <label class="check-option"><input id="lining-option" type="checkbox"><span class="custom-check"></span><span><strong>Add lining fabric</strong><small>A comfortable, considered finish</small></span><b>+ ₹450</b></label>
+              <label class="check-option"><input id="express-option" type="checkbox"><span class="custom-check"></span><span><strong>Express stitching</strong><small>For when the occasion is close</small></span><b>+ ₹500</b></label>
+            </div>
+            <label class="field-label sleeve-label" for="sleeve-style">Sleeve customization</label>
+            <select id="sleeve-style" class="text-field">
+              <option value="Standard sleeves">Standard sleeves</option>
+              <option value="Sleeveless">Sleeveless</option>
+              <option value="Statement puff sleeves">Statement puff sleeves</option>
+              <option value="Elbow-length sleeves">Elbow-length sleeves</option>
+              <option value="Full-length sleeves">Full-length sleeves</option>
+            </select>
+            <label class="field-label requirements-label" for="custom-requirements">Anything else you have in mind?</label>
+            <textarea id="custom-requirements" class="text-field" rows="3" maxlength="500" placeholder="A colour, a little detail, or a note for our designer…"></textarea>
+          </div>
+        </div>
+        <aside class="estimate-card" aria-label="Live design estimate">
+          <div class="estimate-topline"><span>YOUR DESIGN NOTE</span><span class="estimate-heart">✳</span></div>
+          <p class="estimate-overline">A LITTLE PREVIEW</p>
+          <h3 id="summary-design-name">Your Anarkali</h3>
+          <p class="summary-caption" id="summary-design-caption">A new favourite, in the making.</p>
+          <div class="summary-details">
+            <div><span>Silhouette</span><strong id="summary-base">Anarkali</strong></div>
+            <div><span>Neckline</span><strong id="summary-neckline">Sweetheart</strong></div>
+            <div><span>Fabric</span><strong id="summary-fabric">Silk</strong></div>
+            <div><span>Embroidery</span><strong id="summary-embroidery">Not selected</strong></div>
+            <div><span>Sleeves</span><strong id="summary-sleeves">Standard sleeves</strong></div>
+          </div>
+          <div class="price-breakdown">
+            <div class="breakdown-header"><strong>YOUR ESTIMATE</strong><span>INR</span></div>
+            <div id="price-items"></div>
+            <div class="total-row"><span>Estimated total</span><strong id="estimated-total">₹0</strong></div>
+            <p class="estimate-disclaimer">A starting estimate. Final pricing is confirmed during your design consultation.</p>
+          </div>
+          <button class="button button-dark button-full" id="print-quotation" type="button">Print your quotation <span>↗</span></button>
+          <button class="text-button" id="reset-customization" type="button">Start this look again</button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="story-section section" id="story">
+      <div class="story-image-wrap">
+        <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=85" alt="Traditional Indian fashion in rich handcrafted details" loading="lazy">
+        <div class="story-stamp"><span>MADE WITH</span><strong>♥</strong><span>IN JAIPUR</span></div>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow"><span></span> A LITTLE ABOUT US</p>
+        <h2>Clothes for the<br><em>stories you’ll tell.</em></h2>
+        <p>At Bloom &amp; Thread, every piece begins with a conversation. We bring together the craft traditions we love and the little details that make a design feel like yours.</p>
+        <p>From the first sketch to the final fitting, our Jaipur studio makes occasionwear slowly, thoughtfully, and always with you in mind.</p>
+        <a class="underlined-link" href="#appointments">Come say hello <span>↗</span></a>
+        <div class="story-signature">With love, <span>Bloom &amp; Thread</span></div>
+      </div>
+    </section>
+
+    <section class="collections-section">
+      <div class="section collection-inner">
+        <div class="section-heading collection-heading">
+          <div><p class="eyebrow"><span></span> MADE FOR THE MOMENT</p><h2>Little collections.<br><em>Big feelings.</em></h2></div>
+          <p class="section-aside">A few of the occasions we love dressing for. Each one can be made to measure, in the colours and details you love.</p>
+        </div>
+        <div class="collection-grid">
+          <article class="collection-card collection-card-large">
+            <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e3?auto=format&fit=crop&w=1100&q=85" alt="Bridal-inspired Indian occasionwear" loading="lazy">
+            <div class="collection-overlay"><span>01 / THE CELEBRATION EDIT</span><h3>Wedding<br>weekends</h3><a href="#customizer" aria-label="Create a wedding weekend look">Create your look ↗</a></div>
+          </article>
+          <article class="collection-card">
+            <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=85" alt="Festive Indian fashion in jewel tones" loading="lazy">
+            <div class="collection-overlay"><span>02 / LIGHTS &amp; LAUGHTER</span><h3>Festive<br>gatherings</h3><a href="#customizer">Create your look ↗</a></div>
+          </article>
+          <article class="collection-card">
+            <img src="https://images.unsplash.com/photo-1610189012906-4c48b8ab5c34?auto=format&fit=crop&w=900&q=85" alt="Elegant Indian designer outfit" loading="lazy">
+            <div class="collection-overlay"><span>03 / YOUR VERY OWN</span><h3>Made just<br>for you</h3><a href="#customizer">Create your look ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-mark">“</div>
+      <p class="eyebrow eyebrow-light"><span></span> NOTES FROM OUR CLIENTS</p>
+      <blockquote>“I felt like myself, only a little more<br>like the occasion.”</blockquote>
+      <div class="quote-stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <p class="quote-author">ANANYA M. <span>·</span> JAIPUR</p>
+      <div class="quote-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="appointment-section section" id="appointments">
+      <div class="appointment-intro">
+        <p class="eyebrow"><span></span> LET'S MAKE SOMETHING LOVELY</p>
+        <h2>There’s nothing like<br><em>a good fitting.</em></h2>
+        <p>Tell us what you’re celebrating. We’ll save you a little time with our designer and begin dreaming up the details together.</p>
+        <div class="contact-list">
+          <a href="tel:+911414001234"><span class="contact-icon">☎</span><span><small>GIVE US A CALL</small><strong>+91 141 400 1234</strong></span></a>
+          <a href="mailto:hello@bloomandthread.in"><span class="contact-icon">✉</span><span><small>WRITE US A NOTE</small><strong>hello@bloomandthread.in</strong></span></a>
+          <div><span class="contact-icon">⌖</span><span><small>FIND OUR STUDIO</small><strong>C-Scheme, Jaipur, Rajasthan</strong></span></div>
+        </div>
+        <a class="whatsapp-link" id="whatsapp-link" href="#" target="_blank" rel="noopener noreferrer"><span>◉</span> A quick hello on WhatsApp ↗</a>
+        <p class="demo-note">This is a frontend demonstration. Appointment requests stay in this browser and are not sent to a real boutique.</p>
+      </div>
+      <div class="booking-card">
+        <div class="booking-title"><span>01 / 02</span><h3>Save a little time<br>for <em>yourself.</em></h3></div>
+        <form id="appointment-form" novalidate>
+          <div class="form-grid">
+            <label class="form-field"><span>Your name *</span><input name="name" type="text" autocomplete="name" placeholder="e.g. Ananya Mehta" required maxlength="80"></label>
+            <label class="form-field"><span>Mobile number *</span><input name="mobile" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91 98765 43210" required maxlength="18"></label>
+            <label class="form-field"><span>Email address</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="120"></label>
+            <label class="form-field"><span>Outfit category *</span><select name="category" required><option value="">Choose one</option><option>Anarkali</option><option>Designer Blouse</option><option>Lehenga</option><option>Gown</option><option>Saree Blouse</option><option>Custom ethnic outfit</option></select></label>
+            <label class="form-field"><span>Appointment date *</span><input name="date" id="appointment-date" type="date" required></label>
+            <label class="form-field"><span>Preferred time *</span><select name="time" required><option value="">Choose a time</option><option>10:00 AM</option><option>11:30 AM</option><option>1:00 PM</option><option>2:30 PM</option><option>4:00 PM</option><option>5:30 PM</option></select></label>
+            <label class="form-field form-field-wide"><span>Anything we should know?</span><textarea name="requirements" rows="2" maxlength="500" placeholder="The occasion, a favourite colour, or anything else…"></textarea></label>
+          </div>
+          <p class="form-error" id="form-error" role="alert" hidden></p>
+          <button class="button button-dark button-full booking-submit" type="submit">Request an appointment <span>↗</span></button>
+          <p class="form-footnote">* Required fields · Your details are saved only in this browser.</p>
+        </form>
+        <div class="booking-confirmation" id="booking-confirmation" role="status" hidden></div>
+      </div>
+    </section>
+
+    <section class="history-section section" id="appointment-history">
+      <div class="history-heading"><div><p class="eyebrow"><span></span> YOUR SAVED VISITS</p><h2>A little look <em>back.</em></h2></div><p>Demo appointments saved on this device.</p></div>
+      <div class="appointment-list" id="appointment-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#home"><span class="brand-mark" aria-hidden="true">B<span>&amp;</span>T</span><span class="brand-copy"><strong>BLOOM &amp; THREAD</strong><small>DESIGNER BOUTIQUE</small></span></a>
+        <p>Made for your moments.<br>Thoughtfully stitched in Jaipur.</p>
+      </div>
+      <div class="footer-column"><span>TAKE A LOOK</span><a href="#lookbook">The lookbook</a><a href="#customizer">Create your look</a><a href="#story">Our story</a></div>
+      <div class="footer-column"><span>COME SAY HELLO</span><a href="#appointments">Book a consultation</a><a href="mailto:hello@bloomandthread.in">Email the studio</a><a href="tel:+911414001234">+91 141 400 1234</a></div>
+      <div class="footer-signoff">A little love,<br><em>Bloom &amp; Thread</em></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="current-year"></span> BLOOM &amp; THREAD · DESIGNER BOUTIQUE</span><span>MADE WITH CARE IN JAIPUR, INDIA</span><a href="#home">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div class="design-modal" id="design-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" aria-label="Close design details" data-close-modal>×</button>
+      <img id="modal-image" src="" alt="">
+      <div class="modal-copy"><p class="eyebrow" id="modal-category"></p><h2 id="modal-title"></h2><p id="modal-description"></p><div class="modal-price"><span>DESIGN STARTS AT</span><strong id="modal-price"></strong></div><button class="button button-dark button-full" id="modal-select-design" type="button">Select this design <span>↗</span></button></div>
+    </div>
+  </div>
+  <section id="printable-quotation" aria-label="Printable design quotation"></section>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/catalog.js" defer></script>
+  <script src="js/customizer.js" defer></script>
+  <script src="js/calculator.js" defer></script>
+  <script src="js/appointments.js" defer></script>
+</body>
+</html>
